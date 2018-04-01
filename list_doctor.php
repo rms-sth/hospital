@@ -8,6 +8,7 @@
 
 ?>
 <link href="admin/css/jquery.dataTables.min.css" rel="stylesheet">
+
 <!-- Page Content -->
         <div id="page-wrapper">
             <div class="container-fluid">
@@ -37,7 +38,7 @@
                                         <th>SN</th>
                                         <th>Doctor Name</th>
                                         <th>Specialist</th>
-                                        <th>University</th>
+                                        <!-- <th>University</th> -->
                                         <th>Available Time</th>
                                         <th>Status</th>
                                         
@@ -50,7 +51,7 @@
                                         <td><?php echo $i++; ?></td>
                                         <td><a href="doctor_detail.php?id=<?php echo $doc['id'];?>"><?php echo $doc['doctor_name'] ?></a> </td>
                                         <td><?php echo $doc['specialist'] ?></td>
-                                        <td><?php echo $doc['university'] ?></td>
+                                        
                                         <td><?php echo $doc['available_time'] ?></td>    
                                         <td class="center">
                                             <?php if ($doc['status'] == 1) {
@@ -79,8 +80,10 @@
             <!-- /.container-fluid -->
         </div>
         <!-- /#page-wrapper -->
+
 <?php require_once "footer.php" ?>
-<?php require_once "footer.php"; ?>
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+
 <script type="text/javascript" src = "admin/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {

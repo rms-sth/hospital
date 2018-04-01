@@ -8,7 +8,7 @@ require_once "header.php"; ?>
 
 		<h1 class="page-title">ABOUT US <span class="title-under"></span></h1>
 		<p class="page-description">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit Necessitatibus.
+			Hospital Management System (Limited to Doctor and Patient only)
 		</p>
 
 	</div>
@@ -29,34 +29,39 @@ require_once "header.php"; ?>
 
 			<div class="col-md-6">
 
-				<h2 class="title-style-2">ABOUT SADAKA <span class="title-under"></span></h2>
+				<h2 class="title-style-2">ABOUT OUR TEAM <span class="title-under"></span></h2>
 
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nulla quae possimus id fugit totam perspiciatis ad consequatur natus dolores unde ipsa, architecto, dignissimos corrupti explicabo provident debitis suscipit, beatae!
-				</p>
+				
+					<h1><strong>VISION &amp; MISSION</strong></h1>
 
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, voluptatum molestiae voluptas ducimus tempora numquam eligendi quos, quia aut quidem et, odio deleniti amet natus accusamus fugit! Temporibus, tenetur.
-				</p>
+<p><strong>Vision</strong></p>
 
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatem, ea, quisquam vero ullam nesciunt recusandae expedita similique nisi! Ducimus, reiciendis, quia. Explicabo minima error excepturi minus, aperiam illum fugit.
-				</p>
+<p>To be the leading multi-faculty general hospital providing innovative and complex health care and health care education.</p>
 
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, voluptatum molestiae voluptas ducimus tempora numquam eligendi quos, quia aut quidem et, odio deleniti amet natus accusamus fugit! Temporibus, tenetur.
-				</p>
 
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptatem, ea, quisquam vero ullam nesciunt recusandae expedita similique nisi! Ducimus, reiciendis, quia. Explicabo minima error excepturi minus, aperiam illum fugit , quia. Explicabo minima error excepturi minus, aperiam illum fugit.
 
-				</p>
+<p><strong>Mission</strong></p>
+
+<p>To offer a comprehensive service in an environment where innovation and teaching are integral to care; where we are proud to serve patients and one another; where meeting the challenge of complex medical needs is viewed as a defining competency; and where quality and safety of care are a constant.</p>
+
+
+
+<h1><strong>Goals</strong></h1>
+
+<ol>
+	<li>Multi-faculty&nbsp; hospital at international standard in the country;</li>
+	<li>Run graduate and undergraduate medical education including nursing programs, other health&nbsp; related training and research that serve the needs of the reformed health system;</li>
+	<li>Establish a satellite linked hospital with other renowned hospitals;</li>
+	<li>Promote and support to greater responsiveness to community health needs and collaboration with other community organizations;</li>
+	<li>Provide appropriate cost effective health care services at international standard in Nepal;</li>
+</ol>
+
 
 			</div>
 
 		</div> <!-- /.row -->
 
-		<div class="section-home about-us">
+		<div class="section-home about-us fadeIn animated">
 
 
 			<div class="row">
@@ -68,10 +73,10 @@ require_once "header.php"; ?>
 						<div class="col-icon-wrapper">
 							<img src="assets/images/icons/our-mission-icon.png" alt="">
 						</div>
-						<h3 class="col-title">our mission</h3>
+						<h3 class="col-title">Our mission</h3>
 						<div class="col-details">
 
-							<p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+							<p>To offer a comprehensive service in an environment where innovation and teaching are integral to care... </p>
 
 						</div>
 						<a href="#" class="btn btn-primary"> Read more </a>
@@ -91,7 +96,7 @@ require_once "header.php"; ?>
 						<h3 class="col-title">Make donations</h3>
 						<div class="col-details">
 
-							<p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+							<p>Donate to the poor and homeless child of Nepal. We provide charity serives also...</p>
 
 						</div>
 						<a href="#" class="btn btn-primary"> Read more </a>
@@ -111,7 +116,7 @@ require_once "header.php"; ?>
 						<h3 class="col-title">Help & support</h3>
 						<div class="col-details">
 
-							<p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+							<p>Our facilities and services included highly qualified specialists along with trained nursing staff...</p>
 
 						</div>
 						<a href="#" class="btn btn-primary"> Read more </a>
@@ -128,10 +133,10 @@ require_once "header.php"; ?>
 						<div class="col-icon-wrapper">
 							<img src="assets/images/icons/programs-icon.png" alt="">
 						</div>
-						<h3 class="col-title">our programs</h3>
+						<h3 class="col-title">Our Programs</h3>
 						<div class="col-details">
 
-							<p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+							<p>We conduct different blood donation programs all over Nepal. We also conduct many charity functions to poor...</p>
 
 						</div>
 						<a href="#" class="btn btn-primary"> Read more </a>
@@ -301,5 +306,9 @@ require_once "header.php"; ?>
 
 	</div>
 </div>
+
+<!-- jQuery -->
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<script src="assets/js/jquery-1.11.1.min.js"></script>
 
 <?php require_once "footer.php"; ?>

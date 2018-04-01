@@ -89,102 +89,104 @@ require_once "header.php"; ?>
 
     </div><!-- /.carousel -->
 
+    
+    </div> <!-- /.row -->
+
     <div class="section-home about-us fadeIn animated">
 
-        <div class="container">
 
-            <div class="row">
+      <div class="row">
 
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
+        <div class="col-md-3 col-sm-6">
 
-                        <div class="col-icon-wrapper">
-                          <img src="assets/images/icons/our-mission-icon.png" alt="">
-                        </div>
-                        <h3 class="col-title">our mission</h3>
-                        <div class="col-details">
+          <div class="about-us-col">
 
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-                          
-                        </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
-                    
-                  </div>
-                  
-                </div>
-
-
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
-
-                        <div class="col-icon-wrapper">
-                          <img src="assets/images/icons/make-donation-icon.png" alt="">
-                        </div>
-                        <h3 class="col-title">Make donations</h3>
-                        <div class="col-details">
-
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-                          
-                        </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
-                    
-                  </div>
-                  
-                </div>
-
-
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
-
-                        <div class="col-icon-wrapper">
-                          <img src="assets/images/icons/help-icon.png" alt="">
-                        </div>
-                        <h3 class="col-title">Help & support</h3>
-                        <div class="col-details">
-
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-                          
-                        </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
-                    
-                  </div>
-                  
-                </div>
-
-
-                <div class="col-md-3 col-sm-6">
-                
-                  <div class="about-us-col">
-
-                        <div class="col-icon-wrapper">
-                          <img src="assets/images/icons/programs-icon.png" alt="">
-                        </div>
-                        <h3 class="col-title">our programs</h3>
-                        <div class="col-details">
-
-                          <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-                          
-                        </div>
-                        <a href="#" class="btn btn-primary"> Read more </a>
-                    
-                  </div>
-                  
-                </div>
-                
-
-                
+            <div class="col-icon-wrapper">
+              <img src="assets/images/icons/our-mission-icon.png" alt="">
             </div>
+            <h3 class="col-title">Our mission</h3>
+            <div class="col-details">
+
+              <p>To offer a comprehensive service in an environment where innovation and teaching are integral to care... </p>
+
+            </div>
+            <a href="#" class="btn btn-primary"> Read more </a>
+
+          </div>
 
         </div>
-      
-    </div> <!-- /.about-us -->
 
+
+        <div class="col-md-3 col-sm-6">
+
+          <div class="about-us-col">
+
+            <div class="col-icon-wrapper">
+              <img src="assets/images/icons/make-donation-icon.png" alt="">
+            </div>
+            <h3 class="col-title">Make donations</h3>
+            <div class="col-details">
+
+              <p>Donate to the poor and homeless child of Nepal. We provide charity serives also...</p>
+
+            </div>
+            <a href="#" class="btn btn-primary"> Read more </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+
+          <div class="about-us-col">
+
+            <div class="col-icon-wrapper">
+              <img src="assets/images/icons/help-icon.png" alt="">
+            </div>
+            <h3 class="col-title">Help & support</h3>
+            <div class="col-details">
+
+              <p>Our facilities and services included highly qualified specialists along with trained nursing staff...</p>
+
+            </div>
+            <a href="#" class="btn btn-primary"> Read more </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+
+          <div class="about-us-col">
+
+            <div class="col-icon-wrapper">
+              <img src="assets/images/icons/programs-icon.png" alt="">
+            </div>
+            <h3 class="col-title">Our Programs</h3>
+            <div class="col-details">
+
+              <p>We conduct different blood donation programs all over Nepal. We also conduct many charity functions to poor...</p>
+
+            </div>
+            <a href="#" class="btn btn-primary"> Read more </a>
+
+          </div>
+
+        </div>
+
+
+
+      </div> <!-- /.row -->
+
+
+    </div> 
+
+  </div> <!-- /.about-us -->
     
 
-    <div class="section-home home-reasons">
+    <div class="section-home home-reasons fadeIn animated">
 
         <div class="container">
 
@@ -256,5 +258,7 @@ require_once "header.php"; ?>
       
 
     </div> <!-- /.home-reasons -->   
+    <!-- jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <?php require_once "footer.php"; ?>

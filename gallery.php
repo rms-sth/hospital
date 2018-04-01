@@ -1,4 +1,6 @@
-<?php require_once "header.php"; ?>
+<?php 
+$title = "Gallery";
+require_once "header.php"; ?>
 
 
 
@@ -8,7 +10,7 @@
 			
 			<h1 class="page-title">GALLERY <span class="title-under"></span></h1>
 			<p class="page-description">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit Necessitatibus.
+				Money cannot buy everything... Help poor and homeless child...
 			</p>
 			
 		</div>

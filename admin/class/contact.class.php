@@ -8,10 +8,10 @@ class Contact extends Common{
 	{
 	
 		$sql = "insert into tbl_contact (contact_name,email,message,created_date) values('$this->contact_name', '$this->email', '$this->message', '$this->created_date')";
-		$conn = new mysqli('localhost','root','','db_newsportal');
+		$conn = new mysqli('localhost','root','','db_hospital');
 		$result = $this->insert($sql);
 		if($result){
-			echo "<div class = 'alert alert-success'>" ."<br> Congratulation!!! Form inserted successfully !!" ."</div>";
+			echo "<div class = 'alert alert-success'>" ."<br> Congratulation!!! Message was sent successfully !!" ."</div>";
 		}else{
 			return false;
 		}

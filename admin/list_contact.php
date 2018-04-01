@@ -11,7 +11,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">List of all Doctor</h1>
+                        <h1 class="page-header">List of all Contact</h1>
                     </div>
                     <!-- /.col-lg-12 -->
                 </div>
@@ -19,7 +19,7 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            List all Doctor
+                            List all Contact
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">

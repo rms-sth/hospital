@@ -1,3 +1,4 @@
+
 <?php
 $title = "Contact Form";
 require_once "header.php"; 
@@ -11,9 +12,8 @@ require_once "header.php";
 			
 			<h1 class="page-title">CONTACT US <span class="title-under"></span></h1>
 			<p class="page-description">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit Necessitatibus.
-			</p>
-			
+				Hospital Management System
+			</p>			
 		</div>
 
 	</div>
@@ -32,7 +32,7 @@ require_once "header.php";
                             echo "<div class='alert alert-danger'>Form can not be inserted</div>";
                         } ?>
 					
-                    <form role= "form" class="contact-form ajax-form" action="" method="post" id="contactform" novalidate="">
+                    <form class="ajax-form" action="" method="post" id="contactform">
 
 						<div class="row">
 
@@ -82,16 +82,14 @@ require_once "header.php";
 
 
 		</div>
-		
-
-<!-- 
-	</div>
-<center><script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:768px;width:1366px;'><div id='gmap_canvas' style='height:768px;width:1366px;'></div><div><small><a href="http://embedgooglemaps.com">Click here to generate your map!</a></small></div><div><small><a href="http://couponcode.ng/konga/">Enjoy big discounts for Konga with these easy to use coupon.</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(27.6791202,85.32137599999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(27.6791202,85.32137599999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Patan</strong><br>Patan Dhoka, Lalitpur<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></center>
-	
-	</div> -->
 <br>
+
+
+
+
 <?php require_once "footer.php" ?>
 
+<script src="assets/js/jquery-1.11.1.min.js"></script>
 <script src="admin/js/validation/dist/jquery.validate.min.js"></script>
 <script type="text/javascript">
    $(document).ready(function(){
