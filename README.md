@@ -1,4 +1,4 @@
-# Hosptial System
+# Hospital Appointment System
 ## Overview:
 - Doctor Appointment System
 - Simple hospital doctor appointment MIS
